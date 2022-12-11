@@ -1,0 +1,5 @@
+---
+- hosts: 10.0.0.4
+  remote_user: "{{ system_user }}"
+  roles:
+    - webapp-apache
