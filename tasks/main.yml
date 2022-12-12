@@ -1,7 +1,7 @@
 ---
 # tasks file for webapp-apache
 
-- name: "Apache installation using docker"
+- name: Apache installation using docker
   hosts: Prod
   become: true
   vars_files:
